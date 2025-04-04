@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- es importante declarar el idioma español con lang="es" -->
 <head>
     <meta charset="UTF-8">
     <title>Clase 2 - css</title>
 </head>
 <body>
 
-</body>
-    <Header> <h1>Ricarte Aldana Mailén</h1></Header>
+</body>  <!-- MUY IMPORTANTE: la etiqueta body se cierra al final, después de todo el contenido y antes </html>, ahora todo tu contenido está fuera de <body> -->
+    <Header> <h1>Ricarte Aldana Mailén</h1></Header> <!-- las etiquetas van en minusculas así <header> no así <Header> -->
     <nav>
         <span>About |</span> <span>Portfolio |</span>
         <!--***Si luego hay q hacer varias paginas pondria los linksa estas aca, y si es solo una pagina entonces estos links serian como un acorte al scroll?? o un indice tipo google docs***-->
+        <!-- para hacer un menu de navegación tenes que crear una lista <ul> adentro de <nav> y en cada <li> colocar los enlaces <a>, ejemplo: 
+            <ul>
+                <li><a href="#">About</a></li>
+            </ul>
+        más adelante con CSS vas a poder aplicar estilos para que sea un menú horizontal, te recomiendo mover <nav> adentro de <header> ya que es el menú principal ->
     </nav>
     <main>
         <section> <!--***SOBRE MI***-->
-            <hr>
+            <hr> <!-- no usar <hr> para dar formato a la página, con CSS vas a poder crear lineas si necestiás -->
             <h2>Sobre mí</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, in. Perferendis repellendus ipsa est quisquam accusamus cumque amet voluptate tenetur, similique vero laboriosam aperiam, illum quia soluta. Doloremque, veritatis debitis.</p>
+            <!-- para la entrega no usar texto lorem ipsum -->
         </section><hr>
         <section><!--***EDUCACION***-->
-            <ul></ul>
+            <ul></ul> <!-- eliminar etiquetas vacias -->
             <h2>Educación</h2>
-                <li>Secundaria n°64 Lomas de Zamora</li>
-                <li>Universidad Nacional de Lanús | <i>Lic. diseño y comunicación visual</i>
+                <li>Secundaria n°64 Lomas de Zamora</li> <!-- las etiquetas <li> siempre van dentro de las etiquetas <ul> o <ol> -->
+                <li>Universidad Nacional de Lanús | <i>Lic. diseño y comunicación visual</i> <!-- no usamos etiquetas HTML como <i> para dar formato, con CSS vas a poder poner texto en italic-->
                 </li>
             <h2>Cursos</h2>
                 <li>Introducción a la programación 
-                    <br> Julio 2023 | <i>Programa codo a codo 4.0</i></li>
+                    <br> Julio 2023 | <i>Programa codo a codo 4.0</i></li> <!-- no usar etiquetas <br> para salto de linea ni <i> para italic, el HTML solo maqueta el contenido, no resuelve cuestiones estéticas -->
               
                 <li>Introducción al diseño Ux/Ui 
                     <br> Julio 2024 | <i>Programa codo a codo 4.0</i></li>
@@ -35,6 +41,7 @@
         <section><!--***SOFTWARES***-->
             <h3>Softwares</h3>
             <ul><b>Diseño</b> <!--esto ira luego en un h3 pero ahora sin css no me gusta el espacio q queda con la lista de abajo-->
+                <!-- no usar etiquetas <b>, adentro de las etiquetas de lista solo se pueden usar elementos <li>, podés colocar un titulo arriba de <ul>, por fuera de la lista -->
                 <li>Indesign - </li>
                 <li>Ilustrator - </li>
                 <li>Photoshop - </li>
@@ -57,9 +64,14 @@
         </section><hr>
     </main>
     <footer>
-        contacto/redes 
+        contacto/redes <!-- los textos va siempre con alguna etiqueta como <p> -->
     </footer>
 
+</html>
+
+<!-- se que estás preocupada por como se ve tu página y ya querés aplicar estilos pero para el HTML solo vamos a centrarnos en el contenido
+y que esté bien estructurado. no usamos <b>, <i>, <hr> o <br> para dar formato a la página, esas etiquetas se usan en otros contextos,
+ahora se ve "feo" pero eso se va a resolver con CSS, no te preocupes :D -->
 
 <!-- Clase 1
     <header>
@@ -92,7 +104,6 @@
 
 -->
 
-</html>
 <!--
 
 subir a git: ir a consola.
