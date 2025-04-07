@@ -1,0 +1,18 @@
+@charset "utf-8";
+h1{
+    color: #2638ac;
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2,h3{
+    color: #DD7596;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+p, ul{
+    color: #3C3C3B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    color: rgb(240, 240, 219);
+}
