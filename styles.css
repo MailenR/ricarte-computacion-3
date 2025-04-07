@@ -16,3 +16,21 @@ p, ul{
 html{
     color: rgb(240, 240, 219);
 }
+.sobre-mi{
+    background-color: rgb(221, 250, 245);
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navega{
+    background-color: #8b9697; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+a{
+    color: #FFFFF0;
+}
