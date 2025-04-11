@@ -1,36 +1,76 @@
 @charset "utf-8";
-h1{
-    color: #2638ac;
-    font-size: 30px; 
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background-color: #f4d8cd;
 }
-h2,h3{
-    color: #DD7596;
-    font-size: 20px; 
-    font-family: Arial, Helvetica, sans-serif;
+header{
+    color: #315c2b;
+    background-color: rgb(0, 255, 170);
+    padding-top: 1%;
+
+     /*no se si es mi pantalla -una tv- pero se ve muy oscuro el color en la pagina*/
 }
-p, ul{
-    color: #3C3C3B;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+nav{
+    background-color: #426f58;
+   border-radius: 20px;
+     /*que seas medio transparente maybe, no tan tosco*/
+
 }
-html{
-    color: rgb(240, 240, 219);
+img{
+    border-radius: 200px;   
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 10%;
+    /* buscar como alinear imagen en el centro del aside*/
 }
-.sobre-mi{
-    background-color: rgb(221, 250, 245);
-    width: 300px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.item_nav, .item_nave{ 
+    list-style: none;
+    /*ver flexbox de neuvo, como hacer que los dos cosos de nav esten uno al lado del otro*/
+    
 }
-.navega{
-    background-color: #8b9697; 
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+.aboutme,.negativep, .contacto{
+    color: #f4d8cd;
 }
 a{
-    color: #FFFFF0;
+    color: #eec8e0;
 }
+aside{
+    background-color: #426f58;
+    color: #eec8e0;
+    padding: 3%;
+    border-radius: 20px;
+    width:20%;
+    align-items: center;
+}
+
+footer{
+    background-color: #426f58;
+    padding: 10px;
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px; 
+
+}
+
+h2{
+    color: #818b51;
+}
+h3{
+    color: #849084;
+    background-color: #2c3e38;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+   width: 600px
+}
+p{
+    color:#315c2b;
+}
+
+/*
+392f5a violeta oscuro uva
+f092dd rosa un toque mas oscuro
+eec8e0 rosa claro claro
+a8c7bb menta clara
+
+4ECDC4
+*/
