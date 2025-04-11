@@ -1,10 +1,10 @@
 @charset "utf-8";
 body{
-    background-color: #f4d8cd;
+    background-color: #ededd3;
 }
 header{
     color: #315c2b;
-    background-color: rgb(0, 255, 170);
+    background-color: rgb(239, 236, 205);
     padding-top: 1%;
 
      /*no se si es mi pantalla -una tv- pero se ve muy oscuro el color en la pagina*/
@@ -20,7 +20,6 @@ img{
     border-radius: 200px;   
     flex-wrap: wrap;
     flex-direction: column;
-    padding-left: 10%;
     /* buscar como alinear imagen en el centro del aside*/
 }
 .item_nav, .item_nave{ 
