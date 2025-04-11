@@ -2,37 +2,31 @@
 body{
     background-color: #ededd3;
 }
+main{
+    display: flex;
+    flex-direction: row;
+}
+
 header{
     color: #315c2b;
     background-color: rgb(239, 236, 205);
     padding-top: 1%;
+    display: flex;
+    flex-direction: column;
 
      /*no se si es mi pantalla -una tv- pero se ve muy oscuro el color en la pagina*/
 }
 
 nav{
     background-color: #426f58;
-   border-radius: 20px;
+    border-radius: 20px;
      /*que seas medio transparente maybe, no tan tosco*/
-
-}
-img{
-    border-radius: 200px;   
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* buscar como alinear imagen en el centro del aside*/
-}
-.item_nav, .item_nave{ 
-    list-style: none;
-    /*ver flexbox de neuvo, como hacer que los dos cosos de nav esten uno al lado del otro*/
-    
-}
-.aboutme,.negativep, .contacto{
-    color: #f4d8cd;
+    margin-bottom: 2%;
 }
 a{
     color: #eec8e0;
 }
+
 aside{
     background-color: #426f58;
     color: #eec8e0;
@@ -40,6 +34,15 @@ aside{
     border-radius: 20px;
     width:20%;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+img{
+    border-radius: 200px;   
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 
 footer{
@@ -47,7 +50,6 @@ footer{
     padding: 10px;
     border-top-left-radius:30px;
     border-top-right-radius: 30px; 
-
 }
 
 h2{
@@ -59,11 +61,46 @@ h3{
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 10px;
-   width: 600px
+    width: 600px
 }
 p{
     color:#315c2b;
 }
+
+
+
+
+
+.item_nav, .item_nave{ 
+    list-style: none;
+    /*ver flexbox de neuvo, como hacer que los dos cosos de nav esten uno al lado del otro*/
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme,.negativep, .contacto{
+    color: #f4d8cd;
+}
+
+
+
+.cuerpocv{
+    display:flex;
+    flex-direction: row
+    
+}
+.conocimientos{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 
 /*
 392f5a violeta oscuro uva
