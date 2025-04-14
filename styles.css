@@ -4,91 +4,84 @@ body{
     background-color: #ededd3;
     display: flex;
     flex-direction: column;
+    padding-left: 1%;
 }
-main{
-    display: flex;
-    flex-direction: row;
-}
-
 header{
     color: #426f58;
     background-color: #ededd3;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    flex-direction: row;
+    
+}
+main{
     display: flex;
-    flex-direction: column;
 }
 
 nav{
     background-color: #426f58;
     border-radius: 20px;
-     /*que seas medio transparente maybe, no tan tosco*/
     margin-bottom: 2%;
     padding-top: 2px;
     padding-bottom: 2px;
-    display: flex;
-    flex-direction: row;
+    list-style: none;
 }
 a{
     color: #ededd3;
     text-decoration: none;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-   
 }
-
 aside{
     background-color: #426f58;
     padding: 3%;
     border-radius: 20px;
     width:15%;
     align-items: center;
-    display: flex;
     flex-direction: column;
-    margin-bottom: 2%;
 }
 img{
     border-radius: 200px;   
-    flex-wrap: wrap;
-    flex-direction: column;
     width: 100%;
-    
 }
 
 footer{
     background-color: #426f58;
-    padding: 10px;
-    border-top-left-radius:30px;
-    border-top-right-radius: 30px; 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 h1{
     font-family: "Red Rose", serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
+    font-style: normal;   
 }
 
 h2{
     color: #426f58;
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100,
-      "YTLC" 500;
 }
+
 h3{
     color: #ededd3;
     background-color: #426f58;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 10px;
-    width: 60%
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
+    list-style: none;
+    
  
 }
 p{
@@ -98,39 +91,62 @@ p{
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100,
-      "YTLC" 500;
 }
 ul{
     color: #426f58;
     font-family: "Red Rose", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
+}
+.navegador{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+}
+.lilink1, .lilink2{
+    list-style: none;
 }
 
-.item_nav, .item_nave{ 
-    list-style: none;
-    /*ver flexbox de neuvo, como hacer que los dos cosos de nav esten uno al lado del otro*/
-    font-family: "Petrona", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-   
-}
 .aboutme, .aboutme2{
     color: #ededd3;
-    
 }
-.conocimientos{
-   width: auto;
-}
-.names{
+.cuerpocv{
     display: flex;
-    flex-direction:row ;
+    flex-direction: column;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+}
+.conocimiento{
+    display: flex;
+    flex-direction: row;
+} /*No se porque no esta occupando el ancho restante,arreglar.*/ 
+.educacion{
+    display: flex;
+    flex-direction: row;
+}
+.contacto{
+    color: #ededd3;
+}
+
+.contact1{
+    color: #ededd3;
+}
+/*ESTILOS ITALICO. BOLD ETC*/
+.date1 , .date2 , .date3 , .date4 , .date5 , .date6{
+    font-style: italic;
 }
 
 
+.redes{
+    display: flex;
+    list-style: none; /*buscar forma que se separen*/
+}
+.fooli1 , .fooli2 , .fooli3 , .fooli4 , .fooli5 , .fooli6{
+    color: #ededd3;
+}
 
 /* 
 
