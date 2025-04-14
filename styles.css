@@ -4,7 +4,7 @@ body{
     background-color: #ededd3;
     display: flex;
     flex-direction: column;
-    padding-left: 1%;
+    padding: 2%;    
 }
 header{
     color: #426f58;
@@ -16,6 +16,7 @@ header{
 }
 main{
     display: flex;
+    padding-right: 2%;
 }
 
 nav{
@@ -32,6 +33,9 @@ a{
     list-style-type: none;
     display: flex;
     flex-direction: row;
+}
+a :hover {
+    color: blue;
 }
 aside{
     background-color: #426f58;
@@ -51,12 +55,14 @@ footer{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     margin-top: 2%;
+    margin-bottom: 0%;
     padding-top: 1%;
     padding-bottom: 3%;
     padding-left: 3%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+   
 }
 h1{
     font-family: "Red Rose", serif;
@@ -69,6 +75,8 @@ h2{
     color: #426f58;
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
+    margin-top: 3%;
+    margin-bottom: 0%;
 }
 
 h3{
@@ -81,6 +89,7 @@ h3{
     font-optical-sizing: auto;
     font-style: normal;
     list-style: none;
+    margin: 0%
     
  
 }
@@ -97,11 +106,18 @@ ul{
     font-family: "Red Rose", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin-left: 0%;
+    padding-left: 0%;
 }
+li{
+  margin-right: 4%;
+  margin-left: 0%;
+}
+
 .navegador{
     display: flex;
     flex-direction: row;
-    margin-right: 10%;
+    justify-content: center;
 }
 .lilink1, .lilink2{
     list-style: none;
@@ -113,19 +129,24 @@ ul{
 .cuerpocv{
     display: flex;
     flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .experiencia{
     display: flex;
     flex-direction: row;
+    list-style: none;
 }
 .conocimiento{
     display: flex;
     flex-direction: row;
-} /*No se porque no esta occupando el ancho restante,arreglar.*/ 
+    list-style: none;
+} 
 .educacion{
     display: flex;
     flex-direction: row;
+    list-style: none;
 }
 .contacto{
     color: #ededd3;
@@ -146,6 +167,10 @@ ul{
 }
 .fooli1 , .fooli2 , .fooli3 , .fooli4 , .fooli5 , .fooli6{
     color: #ededd3;
+    margin-left: 3%;
+    padding-left: 3%;
+    list-style: none;
+
 }
 
 /* 
