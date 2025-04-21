@@ -2,6 +2,7 @@
 # Currículum Vitae - Ricarte Aldana Mailén (TP1)
 Este trabajo consiste en la creación de un sitio web de un Curriculum Vitae, utilizando HTML y CSS.
 La estilización quedó solamente en el archivo "estilos.css".
+El editor de código utilizado fue Visual Studio Code.
 
 ## ✦︎ Diseño:
 Se apuntó a un diseño minimalista y elegante, con una vibra Y2K sutil, sin exageraciones ni sobrecarga visual.
