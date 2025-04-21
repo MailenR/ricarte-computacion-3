@@ -3,146 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <title>Ricarte Aldana Mailén</title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Petrona:ital,wght@0,100..900;1,100..900&family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header> <h1>Ricarte Aldana Mailén</h1>
+    <header>
         <nav>
-            <ul class="nave">
-                <section class="navegador">
-                    <li class="lilink1"><a href="">About</a></li> <!--no se como hacer q se separen el about y el porfolio-->
-                    <li class="lilink1"><a href=""> Portfolio</a></li>
-                    <li class="lilink3"><a href=""> Contacto</a></li>
-                </section>
-               
-            </ul>
+            <a href="">✦︎Inicio✦︎</a>
+            <a href="contacto.html">✦︎Contacto✦︎</a>
         </nav>
+        <section class="nombre-header">
+            <h1>M</h1><h2 id="h2-nombre-index">ailén Ricarte</h2>
+        </section>
     </header>
 
     <main>
-        <aside> <!--***SOBRE MI***-->
-            <img src="img/profile_pic.jpg" alt="profile picture">
-            <h2 class= "aboutme">Sobre mí</h2>
-            <p class="aboutme2">Soy  estudiante en la Licenciatura en Diseño y Comunicación Visual en la UNLa. Soy de virgo y tengo un perrito llamado Simon.</p>       
-        </aside>
-        <section class="cuerpocv">
-            <section class="cuerpo2"><h2>Experiencia</h2>
-                <ul class="experiencia">
-                    <li>
-                        <h3>Asistente administrativa informal</h3>
-                        <ul>
-                            <p class="date1">2019-2021</p>
+        <section id="sobre-mi">
+            <h3>Sobre mí</h3>
+            <img src="img/foto-de-perfil.jpg" alt="Foto de perfil">
+            <p>Soy  estudiante en la Licenciatura en Diseño y Comunicación Visual en la UNLa. Soy de virgo y tengo un perrito llamado Simon.</p> 
+        </section>
+        <div id="contenedor-informacion">
+            <section id="contenedor-educacion">
+                <h3>✦︎Educación</h3>
+                    <h4>Formación Académica</h4>
+                    <ul>
+                        <li>
+                            <article>
+                                <h5>Secundaria n°64 Lomas de Zamora</h5>
+                                <p class="fechas">2018-2020</p>
+                                <p>Bachiller en artes visuales</p>
+                            </article>
+                  
+                        </li>
+                        <li>
+                            <article>
+                                <h5>Universidad Nacional de Lanús</h5>
+                                <p class="fechas">2021 - actualidad</p>
+                                <p>Licenciatura en Diseño y Comunicación Visual</p>
+                            </article>
+                        
+                        </li>
+                    </ul>
+                    <h4>Cursos</h4>
+                    <ul>
+                        <li>
+                            <article>
+                                <h5>Introducción a la programación</h5>
+                                <p class="fechas">Julio 2023/Programa CaC 4.0</p>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <h5>Diseño Ux/Ui</h5>
+                            <p class="fechas">Julio 2024/Programa CaC 4.0</p>
+                            </article>
+                        </li>
+                    </ul>
+            </section>
+
+            <section id="contenedor-conocimientos">
+                <h3> ✦︎Conocimientos</h3>
+                <div class="categorias-conocimientos">
+                    <article class="articulo-3-categorias">
+                        <h4>Diseño</h4>
+                        <ul class="lista-conocimientos">
+                            <li><p>Indesign</p>  <p class="parrafo-nivel-habilidad">/avanzado</p></li>
+                            <li><p>Photoshop</p>  <p class="parrafo-nivel-habilidad">/avanzado</p></li>
+                            <li><p>Illustrator</p>  <p class="parrafo-nivel-habilidad">/intermedio</p></li>
+                            <li><p>Canva</p>  <p class="parrafo-nivel-habilidad">/intermedio</p></li>
+                            <li><p>Figma</p>  <p class="parrafo-nivel-habilidad">/intermedio</p></li>
+                        </ul>
+                    </article>
+
+                    <article class="articulo-3-categorias">
+                        <h4>Arministrativo</h4>
+                        <ul class="lista-conocimientos">
+                            <li><p>Paquete Office</p>  <p class="parrafo-nivel-habilidad">/intermedio</p></li>
+                            <li><p>Google WS</p>  <p class="parrafo-nivel-habilidad">/intermedio</p></li>
+                        </ul>
+                    </article>
+                    <article class="articulo-3-categorias">
+                        <h4>Idiomas</h4>
+                        <ul class="lista-conocimientos">
+                            <li><p>Español</p>  <p class="parrafo-nivel-habilidad">/nativo</p></li>
+                            <li><p>Inglés</p>  <p class="parrafo-nivel-habilidad">/B2</p></li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section id="contenedor-experiencia">
+                <h3>✦︎Experiencia</h3>
+                <div>
+                    <article>
+                        <h4>Asistente administrativa informal</h4>
+                        <ul class="lista-info-experiencias-laborales">
+                            <li><p class="fechas">2019-2021</p></li>
                             <li><p>Apoyo en tareas administrativas escolares: transcripción y organización de calificaciones en planillas de Excel.</p></li>
                             <li><p>Manejo básico de herramientas ofimáticas (Excel, Google Sheets)</p></li>
                         </ul>
-                    </li>
-                    <li>
-                        <h3>Colaboración de proyectos personalizados | Mod "Monika After Story"</h3>
-                        <ul>
-                            <p class="date2">2021 - actualidad</p>
+                                 
+                        
+                    </article>
+                    <article>
+                        <h4>Colaboración de proyectos personalizados | Mod "Monika After Story"</h4>
+                        <ul class="lista-info-experiencias-laborales">
+                            <li><p class="fechas">2021-actualidad</p></li>
                             <li><p>Diseño e ilustración de sprites para personajes del mod.</p></li>
-                            <li><p>Desarrollo de contenido visual integrado con lenguaje de marcado (json)</p></li>
+                            <li><p>Desarrollo de contenido visual integrado con un formato de intercambio de datos(json)</p></li>
                         </ul>
-                    </li>
-                </ul>
-            </section>
-            <section> <h2>Conocimientos</h2>
-                <ul class="conocimiento"> <!--No se porque no ocupa todo el ancho como las secciones de educaicon y la de experiencia-->
-                    <li>
-                        <h3>Diseño</h3>
-                        <ul>
-                          <li><p>Indesign | Avanzado</p></li>
-                          <li><p>Photoshop | Avanzado</p></li>
-                          <li><p>Illustrator | Intermedio</p></li>
-                          <li><p>Canva | Intermedio</p></li>
-                          <li><p>Figma | Intermedio</p></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Administrativo</h3>
-                        <ul>
-                          <li><p>Paquete Office | Intermedio</p></li>
-                          <li><p>Google Workspace | Intermedio</p></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Idiomas</h3>
-                        <ul>
-                          <li><p>Español | Nativo</p></li>
-                          <li><p>Inglés | B2</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section> <h2>Educación</h2>
-                <ul class="educacion">
-                    <li>
-                        <h3>Secundaria n°64 Lomas de Zamora</h3>
-                        <ul><p class="date3">2018 - 2020</p>
-                          <li><p>Bachiller en artes visuales</p></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Universidad Nacional de Lanús</h3>
-                        <ul><p class="date4">2021 - actualidad</p>
-                          <li><p>Licenciatura en Diseño y Comunicación Visual</p></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3>Cursos</h3>
-                        <ul><p class="date5">Julio 2023 | Programa CaC 4.0 </p>
-                            <li><p>Introducción a la programación</p></li>
-                        </ul>
-                        <ul><p class="date6">Julio 2024 | Programa CaC 4.0 </p>
-                            <li><p>Diseño Ux/Ui</p></li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-        </section>
-
+                    </article>
+                </div>            
+            </section>           
+        </div>
     </main>
+
     <footer>
-        <!--La idea es que info quede a la izquierda y las redes en el centro, no se como explicarlo. Por ahora los dos quedan en el centro, cambiar.-->
-        <section>
-            <h3>Info</h3>
-            <ul>
-                <li class="fooli1">Buenos Aires, Argentina</li>
-                <li class="fooli2">Email: aldanricarte@gmail.com</li>
-                <li class="fooli3">Tel: +54 9 11 3480-5997</li>
-                   <!--Buscar iconos localizacion, correo y tel-->
-        
-            </ul>
-        </section>
-        <section>
-            <h3>Mis redes sociales:</h3>
-            <ul class="redes">
-                <li class="fooli4"><a href="https://www.behance.net/aaldanaricarte">Behance</a></li>
-                <li class="fooli5"><a href="https://www.linkedin.com/in/neliamricarte/">LinkedIn</a></li>
-                <li class="fooli6"><a href="https://www.instagram.com/_neliamr/">Instagram</a></li>
-                <li class="fooli6"><a href="https://neliamricarte.tumblr.com">Tumblr</a></li>
-                <!--Buscar que se separen. Buscar iconos redes-->
-                
-            </ul>
-        </section>
+        <p> © Todos los derechos reservados</p>
+        <p> ✦︎2025 | Ricarte Aldana Mailén</p>
     </footer>
-
-
 </body>
 </html>
-<!--
 
-subir a git: ir a consola.
-escribir |  git status
-            git add . (el punto añade todo los cambios, otherwise poner nombre especifico file)
-            git commit -m "texto descripcion q se cambio"
-
-            git push -u origin main
-----------------------------------
-            git pull para llamar los cambios hechos en github x otra personas, hacer esto antes de empezar a cambiar algo x si le pusieron notas o cosas asi)
--->
