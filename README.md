@@ -19,6 +19,10 @@ En ocaciones se intercambiaban (ej: hovers).
 - SUSE
 - Courier Prime
 
+### ✦︎ Cursor
+Se realizó un cursor personalizado para la página, la imagen de este mide 32x32 px
+
+
 ## ✦︎ Estructura
 En el sitio hay dos páginas:
 - index.html: contiene la información sobre la presentación, formación, experiencia y habilidades.
