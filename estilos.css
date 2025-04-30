@@ -1,4 +1,7 @@
 @charset "utf-8";
+html{
+    background-color: #426f58;
+}
 body{
     background-color: #ededd3;
     padding-left: 10%;
@@ -9,6 +12,7 @@ body{
     width: 70%;
 
 }
+
 /***********Header**************/
 /*navegador*/
 nav{
@@ -264,9 +268,35 @@ input, textarea{
     align-items: center;
     justify-content: center;
     gap: 5%;
-
 }
 #redes a{
+    background-color: #426f58;
+    color: #ededd3;
+    border-radius: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 25%;
+}
+
+#categorias-portafolio a:hover{
+    background-color: #ededd3;
+    color: #426f58;
+    border: #426f58;
+    border-style: solid;
+    border-radius: 40px;
+    text-align: center;
+}
+
+-----
+#categorias-portafolio{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+#categorias-portafolio a{
     background-color: #426f58;
     color: #ededd3;
     border-radius: 40px;
@@ -283,6 +313,8 @@ input, textarea{
     border-radius: 40px;
     text-align: center;
 }
+
+
 
 /***********footer**************/
 footer{
