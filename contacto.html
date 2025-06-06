@@ -24,7 +24,8 @@
             <section id="contenedor-formulario-contacto">
                 <h2>Contáctame!</h2>
                 <div id="formulario-contacto">
-                    <form action="mailto:aldanricarte@gmail.com?subject=Formulario de Portfolio">
+                    <!--
+                     <form action="mailto:aldanricarte@gmail.com?subject=Formulario de Portfolio">
                         <label for="nombre-completo"><h3>Nombre y Apellido</h3></label>
                         <input type="text" required placeholder="Nombre Apellido"/>
         
@@ -37,8 +38,33 @@
                             <input type="submit" id="boton-enviar" value="Enviar">
                         </div>
                     </form>
+                    -->
+                   
                  </div> 
-            </section>
+            </section>  
+            <h2>Contacto</h2>
+            <p>* campos obligatorios</p>
+            <form method=""post" action="" target="_blank" enctype="text/plain">
+
+                <label>Nombre</label>
+                <input type="text" name="Nombre" id="Nombre" maxlength="20" placeholder="soy un placeholder" required>
+
+                <label>Email</label>
+                <input type="email" name="Email" id="Email" placeholder="correo@gmail.com">
+
+                <label>Edad</label>
+                <input type="number" min="18" max="100" name="Edad" id="Edad">
+
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="Nacimiento" id="Nacimiento">
+
+                <label>Género:</label>
+                
+                <label>Femenino<input type="radio" name="Genero" value="Femenino" id="Femenino"></label>
+                <label>Masculino<input type="radio" name="Genero" value="Masculino" id="Masculino"></label>
+                <label>No binario<input type="radio" name="Genero" value="No binario" id="nobinario"></label>
+                <input type="submit">
+            </form>
 
 
             <section id="contenedor-redes-sociales">
